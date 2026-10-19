@@ -1,0 +1,4309 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<|endoftext|>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": false,
+    "use_regex": true
+  },
+  "post_processor": null,
+  "decoder": {
+    "type": "ByteLevel",
+    "add_prefix_space": true,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<|endoftext|>": 0,
+      "!": 1,
+      "#": 2,
+      "(": 3,
+      ")": 4,
+      "*": 5,
+      ",": 6,
+      "-": 7,
+      ".": 8,
+      "/": 9,
+      "0": 10,
+      "3": 11,
+      ":": 12,
+      "<": 13,
+      ">": 14,
+      "?": 15,
+      "A": 16,
+      "E": 17,
+      "H": 18,
+      "L": 19,
+      "M": 20,
+      "N": 21,
+      "O": 22,
+      "P": 23,
+      "S": 24,
+      "W": 25,
+      "Y": 26,
+      "\\": 27,
+      "]": 28,
+      "^": 29,
+      "a": 30,
+      "b": 31,
+      "c": 32,
+      "d": 33,
+      "e": 34,
+      "g": 35,
+      "h": 36,
+      "i": 37,
+      "j": 38,
+      "k": 39,
+      "l": 40,
+      "m": 41,
+      "n": 42,
+      "o": 43,
+      "p": 44,
+      "q": 45,
+      "r": 46,
+      "s": 47,
+      "t": 48,
+      "u": 49,
+      "v": 50,
+      "w": 51,
+      "y": 52,
+      "z": 53,
+      "~": 54,
+      "¡": 55,
+      "¤": 56,
+      "¥": 57,
+      "ª": 58,
+      "²": 59,
+      "º": 60,
+      "¼": 61,
+      "½": 62,
+      "¾": 63,
+      "¿": 64,
+      "Ã": 65,
+      "Å": 66,
+      "Ï": 67,
+      "Ð": 68,
+      "Ñ": 69,
+      "á": 70,
+      "â": 71,
+      "ã": 72,
+      "ï": 73,
+      "Ċ": 74,
+      "Ġ": 75,
+      "Ģ": 76,
+      "ģ": 77,
+      "ĥ": 78,
+      "ħ": 79,
+      "Ĩ": 80,
+      "Ī": 81,
+      "ī": 82,
+      "ı": 83,
+      "ķ": 84,
+      "ĸ": 85,
+      "Ĺ": 86,
+      "Ļ": 87,
+      "ľ": 88,
+      "ł": 89,
+      "rr": 90,
+      "ow": 91,
+      "eow": 92,
+      "mrr": 93,
+      "ww": 94,
+      "meow": 95,
+      "aa": 96,
+      "mr": 97,
+      "ny": 98,
+      "mrrp": 99,
+      "nyaa": 100,
+      "rrrr": 101,
+      "mrrr": 102,
+      "mrrow": 103,
+      "me": 104,
+      "mi": 105,
+      "mrow": 106,
+      "mia": 107,
+      "Ġ:": 108,
+      "www": 109,
+      "mrrrp": 110,
+      "pu": 111,
+      "Meow": 112,
+      "wwww": 113,
+      "meoww": 114,
+      "rrr": 115,
+      "ew": 116,
+      "Ġmeow": 117,
+      "!!": 118,
+      "wo": 119,
+      "nyaaa": 120,
+      "meowww": 121,
+      "Mrr": 122,
+      "oww": 123,
+      "mrra": 124,
+      "nyaaaa": 125,
+      "mo": 126,
+      "purrrr": 127,
+      "mra": 128,
+      "nya": 129,
+      "owww": 130,
+      "purrr": 131,
+      "meowmeow": 132,
+      "mewo": 133,
+      "moew": 134,
+      "mrrrow": 135,
+      "Mrroww": 136,
+      "mrrrr": 137,
+      "rrrrrrrr": 138,
+      "eww": 139,
+      "mrroww": 140,
+      "em": 141,
+      "mrrpp": 142,
+      "wwwwwwww": 143,
+      "aaaa": 144,
+      "miaw": 145,
+      "âģ": 146,
+      "eoww": 147,
+      "âģł": 148,
+      "Ġmoew": 149,
+      "miaow": 150,
+      "mrrrpp": 151,
+      "mrrowr": 152,
+      "meo": 153,
+      "mreow": 154,
+      "mrowr": 155,
+      "!!!": 156,
+      "prrrr": 157,
+      "meowwww": 158,
+      "mrrowww": 159,
+      "mew": 160,
+      "mroww": 161,
+      "miau": 162,
+      "mrrrrp": 163,
+      "Mrrr": 164,
+      "ee": 165,
+      "meeow": 166,
+      "purr": 167,
+      "emwo": 168,
+      "Ny": 169,
+      "eo": 170,
+      "Ġmrrp": 171,
+      "miaww": 172,
+      "Mr": 173,
+      "aw": 174,
+      "Ġ>": 175,
+      "mrro": 176,
+      "miawww": 177,
+      "Mrrp": 178,
+      "Mrrrp": 179,
+      "//": 180,
+      "mow": 181,
+      "mro": 182,
+      "meww": 183,
+      "Meowww": 184,
+      "pp": 185,
+      "mrrew": 186,
+      "mrp": 187,
+      "mraw": 188,
+      "Mrow": 189,
+      "aow": 190,
+      "Ġw": 191,
+      "Ġmrrrp": 192,
+      "Ġemwo": 193,
+      "mrreoww": 194,
+      "mre": 195,
+      "mrowww": 196,
+      "miaowww": 197,
+      "mrraow": 198,
+      "au": 199,
+      "mrrpmeow": 200,
+      "Mrrow": 201,
+      "mrrawww": 202,
+      "nyaaaaa": 203,
+      "mrawww": 204,
+      "mrrrowr": 205,
+      "rrrrrrrrrrrrrrrr": 206,
+      "wwwwwwwwwwwwwwww": 207,
+      "âģłâ": 208,
+      "Nya": 209,
+      "aww": 210,
+      "prr": 211,
+      "uu": 212,
+      "uw": 213,
+      "¼Ñ": 214,
+      "Ð¼Ñ": 215,
+      "Ñĥ": 216,
+      "Ġnyaaa": 217,
+      "Ġmewo": 218,
+      "eowww": 219,
+      "mrreww": 220,
+      "mrew": 221,
+      "rrrrr": 222,
+      "mewww": 223,
+      "miawwww": 224,
+      "Meoww": 225,
+      "mrraw": 226,
+      "mrraoww": 227,
+      "purrrrr": 228,
+      "Ð¼Ñı": 229,
+      "..": 230,
+      "awww": 231,
+      "ewww": 232,
+      "mwo": 233,
+      "oo": 234,
+      "prrr": 235,
+      "Ġ(": 236,
+      "Ġe": 237,
+      "Ġmrrow": 238,
+      "Ġmrow": 239,
+      "Ġnya": 240,
+      "Ļ¡": 241,
+      "mraa": 242,
+      "meee": 243,
+      "mrowrr": 244,
+      "mrowrrrr": 245,
+      "Meowwww": 246,
+      "mrraww": 247,
+      "mrraowww": 248,
+      "mrrrrow": 249,
+      "aaaaa": 250,
+      "mreowww": 251,
+      "mewow": 252,
+      "33": 253,
+      "iw": 254,
+      "mw": 255,
+      "maow": 256,
+      "or": 257,
+      "rw": 258,
+      "Ïī": 259,
+      "ï½": 260,
+      "Ġme": 261,
+      "Ġmwo": 262,
+      "mrrrrrr": 263,
+      "mrrrew": 264,
+      "meew": 265,
+      "meeoww": 266,
+      "mrowrrr": 267,
+      "mrrawwww": 268,
+      "moe": 269,
+      "purrrrrr": 270,
+      "mrauw": 271,
+      "meowmeowmeow": 272,
+      "mrrppp": 273,
+      "////": 274,
+      "âģłâĻ¡": 275,
+      "ai": 276,
+      "at": 277,
+      "eeow": 278,
+      "kj": 279,
+      "le": 280,
+      "prrrrrrrr": 281,
+      "pat": 282,
+      "reow": 283,
+      "wa": 284,
+      "yy": 285,
+      "Ð²": 286,
+      "Ġo": 287,
+      "Ġow": 288,
+      "ĠMeow": 289,
+      "Ġnyaaaa": 290,
+      "Ġpurrrr": 291,
+      "Ġmiau": 292,
+      "rrp": 293,
+      "mrreowww": 294,
+      "mrrewww": 295,
+      "meowmrrp": 296,
+      "meowmeoww": 297,
+      "meowmeowww": 298,
+      "meowwwwwwwwwwwwwwwww": 299,
+      "aaa": 300,
+      "mrw": 301,
+      "mreww": 302,
+      "mreo": 303,
+      "mrrra": 304,
+      "mrrrowww": 305,
+      "mrrraow": 306,
+      "pur": 307,
+      "Mrrowww": 308,
+      "nyaaaaaaaa": 309,
+      "mrawwww": 310,
+      "mraowww": 311,
+      "meowmeowmeowmeow": 312,
+      "âģł)": 313,
+      "meoe": 314,
+      "mreowwww": 315,
+      "meeowww": 316,
+      "mroew": 317,
+      "Mrowrr": 318,
+      "Mrowrrr": 319,
+      "mrewwww": 320,
+      "mrraowwww": 321,
+      "ÑĥÑĥ": 322,
+      "Ð¼ÑıÐ²": 323,
+      "mrrrrrrp": 324,
+      "**": 325,
+      "-#": 326,
+      "Aww": 327,
+      "Me": 328,
+      "Mrrrr": 329,
+      "Meo": 330,
+      "any": 331,
+      "cu": 332,
+      "eeww": 333,
+      "eeoww": 334,
+      "ekj": 335,
+      "hai": 336,
+      "hekj": 337,
+      "mj": 338,
+      "mmeoww": 339,
+      "maw": 340,
+      "rp": 341,
+      "ti": 342,
+      "âĹ": 343,
+      "ãĨ": 344,
+      "Ġ^": 345,
+      "Ġi": 346,
+      "Ġnyaa": 347,
+      "Ġew": 348,
+      "Ġwo": 349,
+      "Ġpurrr": 350,
+      "Ġem": 351,
+      "Ġmeo": 352,
+      "Ġpurr": 353,
+      "Ġmow": 354,
+      "ľ¿": 355,
+      "rrow": 356,
+      "mrreow": 357,
+      "mrrrrr": 358,
+      "meowmrrow": 359,
+      "meowwwww": 360,
+      "aaau": 361,
+      "mreoww": 362,
+      "mrrpmeoww": 363,
+      "mrrpmeww": 364,
+      "mrrroww": 365,
+      "mrrowwww": 366,
+      "miaoww": 367,
+      "Meowmeow": 368,
+      "Ġmeowm": 369,
+      "!!!!": 370,
+      "meowwwwww": 371,
+      "moem": 372,
+      "nyaw": 373,
+      "mewoemwo": 374,
+      "mrrrowrrrr": 375,
+      "mrrrowrrr": 376,
+      "Ġmoewm": 377,
+      "mrrrppp": 378,
+      "prrrrr": 379,
+      "prrrrrr": 380,
+      "Nyaaaa": 381,
+      "Nyaaaaa": 382,
+      "mrroew": 383,
+      "mrroeww": 384,
+      "mrroawww": 385,
+      "mrorw": 386,
+      "Ġwmeo": 387,
+      "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr": 388,
+      "rrrrrp": 389,
+      "Ð¼ÑıÑĥÑĥ": 390,
+      "...": 391,
+      "Ġemeow": 392,
+      "ï½¡": 393,
+      "ï½¥": 394,
+      "meewow": 395,
+      "âģłâĻ¡âģł": 396,
+      "patpat": 397,
+      "way": 398,
+      "Ġoemwo": 399,
+      "Ġowmeo": 400,
+      "anyway": 401,
+      "haii": 402,
+      "âĹķ": 403,
+      "ãĨģ": 404,
+      "Ġewmo": 405,
+      "Ġemow": 406,
+      "rrowr": 407,
+      "mrorwr": 408,
+      ".,": 409,
+      ".^": 410,
+      "/<": 411,
+      ":(": 412,
+      ">////": 413,
+      "Aw": 414,
+      "EO": 415,
+      "Heww": 416,
+      "Hai": 417,
+      "Lo": 418,
+      "Mw": 419,
+      "Mew": 420,
+      "MEO": 421,
+      "Ne": 422,
+      "Pu": 423,
+      "Prrr": 424,
+      "St": 425,
+      "Ye": 426,
+      "\\-": 427,
+      "\\\\-": 428,
+      "^.^": 429,
+      "ac": 430,
+      "ag": 431,
+      "ah": 432,
+      "an": 433,
+      "as": 434,
+      "arr": 435,
+      "awwww": 436,
+      "awwwwwwwwwwwwwwww": 437,
+      "ale": 438,
+      "bw": 439,
+      "by": 440,
+      "ble": 441,
+      "bas": 442,
+      "dd": 443,
+      "dk": 444,
+      "ed": 445,
+      "el": 446,
+      "er": 447,
+      "ewwww": 448,
+      "emoe": 449,
+      "gl": 450,
+      "hi": 451,
+      "hl": 452,
+      "il": 453,
+      "it": 454,
+      "iaw": 455,
+      "iaww": 456,
+      "ihekj": 457,
+      "jh": 458,
+      "kmeow": 459,
+      "kit": 460,
+      "lu": 461,
+      "lw": 462,
+      "ly": 463,
+      "mm": 464,
+      "mu": 465,
+      "my": 466,
+      "mÅ": 467,
+      "mmrrp": 468,
+      "mmew": 469,
+      "mmeeow": 470,
+      "mmrreoww": 471,
+      "male": 472,
+      "ne": 473,
+      "neww": 474,
+      "niaw": 475,
+      "oe": 476,
+      "ooww": 477,
+      "oee": 478,
+      "oaw": 479,
+      "oau": 480,
+      "orrowr": 481,
+      "oawwww": 482,
+      "one": 483,
+      "prrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr": 484,
+      "row": 485,
+      "rmeowww": 486,
+      "raw": 487,
+      "rpp": 488,
+      "reowww": 489,
+      "ror": 490,
+      "ran": 491,
+      "rorrowr": 492,
+      "smale": 493,
+      "tyy": 494,
+      "tran": 495,
+      "uh": 496,
+      "ur": 497,
+      "uww": 498,
+      "vw": 499,
+      "vrw": 500,
+      "ver": 501,
+      "vil": 502,
+      "zone": 503,
+      "~~": 504,
+      "~âģłâ": 505,
+      "¤www": 506,
+      "ºħ": 507,
+      "½^": 508,
+      "¾ī": 509,
+      "¿âģłâĻ¡": 510,
+      "Ã¼": 511,
+      "Ã¤www": 512,
+      "áºħ": 513,
+      "âĸ": 514,
+      "âĻ¡": 515,
+      "âľ¿": 516,
+      "ï¾ī": 517,
+      "Ġ3": 518,
+      "ĠĊ": 519,
+      "Ġeow": 520,
+      "Ġmeoww": 521,
+      "Ġmrrrow": 522,
+      "Ġmrrpp": 523,
+      "Ġâģł": 524,
+      "Ġmrrowr": 525,
+      "Ġmreow": 526,
+      "Ġeo": 527,
+      "Ġmrp": 528,
+      "Ġmrowww": 529,
+      "Ġmrraow": 530,
+      "ĠNya": 531,
+      "Ġmrew": 532,
+      "Ġpurrrrr": 533,
+      "Ġmrrrew": 534,
+      "Ġmrrppp": 535,
+      "ĠâģłâĻ¡": 536,
+      "Ġmrrrowww": 537,
+      "Ġâģł)": 538,
+      "Ġmreowwww": 539,
+      "Ġcu": 540,
+      "Ġmrorwr": 541,
+      "Ġ\\\\-": 542,
+      "Ġby": 543,
+      "ĠmÅ": 544,
+      "Ġtran": 545,
+      "Ġuh": 546,
+      "Ģ¿âģłâĻ¡": 547,
+      "Īau": 548,
+      "Ļª": 549,
+      "rreww": 550,
+      "rraww": 551,
+      "rroo": 552,
+      "rror": 553,
+      "owow": 554,
+      "owwww": 555,
+      "owwwww": 556,
+      "owor": 557,
+      "eowrr": 558,
+      "eowwwww": 559,
+      "mrrw": 560,
+      "mrraa": 561,
+      "mrrwo": 562,
+      "mrrrrrrrrrr": 563,
+      "mrreo": 564,
+      "mrreeww": 565,
+      "mrreeoww": 566,
+      "mrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr": 567,
+      "mrrrrrrrp": 568,
+      "wwe": 569,
+      "meowmewo": 570,
+      "meowmrroww": 571,
+      "meowwwwwwwww": 572,
+      "meowprrrr": 573,
+      "meowmrrowww": 574,
+      "meowmrrrrp": 575,
+      "meowmro": 576,
+      "meowvil": 577,
+      "meowzone": 578,
+      "mree": 579,
+      "mrmeww": 580,
+      "mriw": 581,
+      "mrrpow": 582,
+      "mrrpnyaa": 583,
+      "mrrpmrrow": 584,
+      "mrrpnyaaa": 585,
+      "mrrpmeowww": 586,
+      "mrrpmeowwww": 587,
+      "nyaamrrow": 588,
+      "nyaaoo": 589,
+      "rrrrmrrpmeow": 590,
+      "mrrreww": 591,
+      "mrrraaaa": 592,
+      "mrrreoww": 593,
+      "mrrreowww": 594,
+      "mrrrawww": 595,
+      "mrrreeow": 596,
+      "mrrroee": 597,
+      "mrrreowrr": 598,
+      "mrrowrrr": 599,
+      "mrrowmreow": 600,
+      "mrrowrrrrr": 601,
+      "meeww": 602,
+      "meaw": 603,
+      "meiw": 604,
+      "meeeow": 605,
+      "meeeoww": 606,
+      "meiaww": 607,
+      "merow": 608,
+      "miaaaa": 609,
+      "miuu": 610,
+      "miaaau": 611,
+      "miÃ¤www": 612,
+      "mrownyaa": 613,
+      "mrowrrrrr": 614,
+      "mroweeww": 615,
+      "miawo": 616,
+      "miaoo": 617,
+      "Ġ:#": 618,
+      "Ġ:(": 619,
+      "Ġ:<": 620,
+      "mrrrpmeow": 621,
+      "mrrrpmeowww": 622,
+      "mrrrpmo": 623,
+      "Meows": 624,
+      "Meowrr": 625,
+      "Meowprrr": 626,
+      "meowwmrroww": 627,
+      "meowwmrrpmeowwww": 628,
+      "rrrow": 629,
+      "ewmoew": 630,
+      "ewewww": 631,
+      "ewmoe": 632,
+      "Ġmeowe": 633,
+      "Ġmeowo": 634,
+      "Ġmeowwww": 635,
+      "Ġmeowmeowmrrow": 636,
+      "!!!!!": 637,
+      "nyaaan": 638,
+      "nyaaamrreeoww": 639,
+      "meowwwmrrp": 640,
+      "Mrreww": 641,
+      "owwr": 642,
+      "mrrauw": 643,
+      "mrraoe": 644,
+      "nyaaaaaa": 645,
+      "nyaaaamew": 646,
+      "nyaaaaaaaaa": 647,
+      "moemwo": 648,
+      "purrrrrrr": 649,
+      "purrrrmrroww": 650,
+      "mraoww": 651,
+      "mrauww": 652,
+      "owwwrrr": 653,
+      "purrrmw": 654,
+      "purrrmreoww": 655,
+      "meowmeowwwww": 656,
+      "meowmeowmeowww": 657,
+      "meowmeowmrrowww": 658,
+      "meowmeowmewoemwo": 659,
+      "mewome": 660,
+      "mrrrowrr": 661,
+      "mrrrreowww": 662,
+      "mrrrrowwwrrr": 663,
+      "rrrrrrrrrrrr": 664,
+      "mrrowwmeowwww": 665,
+      "emoww": 666,
+      "mrrppmeow": 667,
+      "mrrpppp": 668,
+      "aaaaaaaaa": 669,
+      "Ġmoewmo": 670,
+      "miaowwww": 671,
+      "mrrowreo": 672,
+      "meoew": 673,
+      "meooww": 674,
+      "meorw": 675,
+      "meoawwwwwwwwwwwwwwww": 676,
+      "meorpp": 677,
+      "meoowow": 678,
+      "mewmo": 679,
+      "mrowwq": 680,
+      "mrowwrrr": 681,
+      "miauu": 682,
+      "miauw": 683,
+      "miauuu": 684,
+      "mrrrrppp": 685,
+      "mrrrrprp": 686,
+      "Mrrraow": 687,
+      "eeeo": 688,
+      "eeeowwwww": 689,
+      "purrnyaaamrreeoww": 690,
+      "Nyaaa": 691,
+      "eoe": 692,
+      "eoowww": 693,
+      "eovrw": 694,
+      "Ġmrrpnyaa": 695,
+      "Ġmrrprmeowww": 696,
+      "miawwwww": 697,
+      "miawwuu": 698,
+      "Mrowww": 699,
+      "Mroaw": 700,
+      "awa": 701,
+      "awhekj": 702,
+      "mrroo": 703,
+      "mrroow": 704,
+      "mrroaww": 705,
+      "mrrorrowr": 706,
+      "mrroror": 707,
+      "Mrrrpr": 708,
+      "///<": 709,
+      "mroawww": 710,
+      "mrooawwww": 711,
+      "mrororrowr": 712,
+      "Meowwwwww": 713,
+      "pppp": 714,
+      "mrrewoww": 715,
+      "mrawrrr": 716,
+      "Mrowr": 717,
+      "Mrowrrrrr": 718,
+      "Ġwm": 719,
+      "Ġwmoe": 720,
+      "Ġwmeoe": 721,
+      "Ġwmoem": 722,
+      "Ġwmoemwo": 723,
+      "Ġmrrrpmeww": 724,
+      "Ġmrrrpwwe": 725,
+      "mrreowwmrrp": 726,
+      "mreeow": 727,
+      "mrewww": 728,
+      "mreew": 729,
+      "mrepp": 730,
+      "mrevw": 731,
+      "miaowwwmrrpmeww": 732,
+      "auw": 733,
+      "auuu": 734,
+      "mrrawwwmewow": 735,
+      "mrawwwmewow": 736,
+      "wwwwwwwwwwwwwwwwwww": 737,
+      "âģłâľ¿": 738,
+      "âģłâĢ¿âģłâĻ¡": 739,
+      "prrnyaa": 740,
+      "uwu": 741,
+      "Ġnyaaameww": 742,
+      "Ġnyaaamrroeww": 743,
+      "Ġmewoe": 744,
+      "mrrewwa": 745,
+      "mrewoww": 746,
+      "mrewowww": 747,
+      "Meowwmeowww": 748,
+      "Ð¼ÑıÑĥ": 749,
+      "awwwmrrpp": 750,
+      "oooww": 751,
+      "prrrmeow": 752,
+      "Ġ(âģł": 753,
+      "Ġ(ï½¡": 754,
+      "Ġ(âģłâĻ¡âģł": 755,
+      "Ġ(âĹķ": 756,
+      "Ġ(âģłâľ¿": 757,
+      "Ġemoew": 758,
+      "Ġemoe": 759,
+      "Ġemeoe": 760,
+      "Ġmrowrrr": 761,
+      "mraaaw": 762,
+      "meeeeoww": 763,
+      "meeeeeow": 764,
+      "meeeeeeowwwww": 765,
+      "meeeeoowww": 766,
+      "meeeoooww": 767,
+      "mrowrrrreoe": 768,
+      "mrrrrowrr": 769,
+      "mrrrrowrrrr": 770,
+      "mreowwwmrrpnyaaa": 771,
+      "mewowmrrrpmeow": 772,
+      "333": 773,
+      "iwjh": 774,
+      "mweow": 775,
+      "mwarr": 776,
+      "Ġmeiw": 777,
+      "Ġmereow": 778,
+      "Ġmelw": 779,
+      "Ġmeauw": 780,
+      "Ġmwomeo": 781,
+      "mrrrrrrrrp": 782,
+      "mrauwa": 783,
+      "meowmeowmeowmw": 784,
+      "///////<": 785,
+      "kjhl": 786,
+      "prrrrrrrrrr": 787,
+      "prrrrrrrrrrr": 788,
+      "reowr": 789,
+      "reowrrr": 790,
+      "waowww": 791,
+      "Ġoem": 792,
+      "Ġpurrrrrrrr": 793,
+      "Ġpurrrrmraowww": 794,
+      "Ġmiauuu": 795,
+      "Ġmiauauuu": 796,
+      "rrpr": 797,
+      "meowwwwwwwwwwwwwwwwwwwww": 798,
+      "meowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww": 799,
+      "mrwaaa": 800,
+      "mreoeww": 801,
+      "mreoawwwmrrpp": 802,
+      "mrrrap": 803,
+      "mrrrar": 804,
+      "mrrrawwww": 805,
+      "mrrraowwww": 806,
+      "purur": 807,
+      "nyaaaaaaaaaa": 808,
+      "nyaaaaaaaaaaaaa": 809,
+      "nyaaaaaaaaaaaaaaaaa": 810,
+      "mrawwwwaw": 811,
+      "meowmeowmeowmeowmeowmeow": 812,
+      "mroewrr": 813,
+      "Merrp": 814,
+      "Mrrrrp": 815,
+      "Mrrrrpppp": 816,
+      "Meoooww": 817,
+      "Meoowwwww": 818,
+      "cudd": 819,
+      "mjaw": 820,
+      "mjau": 821,
+      "mawr": 822,
+      "tie": 823,
+      "tiny": 824,
+      "Ġ^âĸ": 825,
+      "Ġidk": 826,
+      "Ġioau": 827,
+      "Ġwoem": 828,
+      "Ġpurrrmrrppp": 829,
+      "Ġmowmoem": 830,
+      "mrrrrrp": 831,
+      "mrrrrroww": 832,
+      "mrrrowweeeo": 833,
+      "!!!!!!": 834,
+      "mewoemwomeowmewo": 835,
+      "mrrrowrrrrrr": 836,
+      "Ð¼ÑıÑĥÑĥÑĥ": 837,
+      "ï½¡)": 838,
+      "ï½¥ï½¡)": 839,
+      "patpatpat": 840,
+      "Ġowmeoiwjh": 841,
+      "anyways": 842,
+      "haiii": 843,
+      "âĹķâľ¿": 844,
+      "Ġemowe": 845,
+      ">///////////<": 846,
+      "Awawa": 847,
+      "Hewwo": 848,
+      "Haihaiii": 849,
+      "Lol": 850,
+      "Mwow": 851,
+      "Mewo": 852,
+      "MEOW": 853,
+      "Never": 854,
+      "Purrrr": 855,
+      "Stac": 856,
+      "Yep": 857,
+      "agkjhl": 858,
+      "bwaaa": 859,
+      "blep": 860,
+      "based": 861,
+      "elihekj": 862,
+      "emoemree": 863,
+      "gllu": 864,
+      "kmeowrror": 865,
+      "kittyy": 866,
+      "lyagkjhl": 867,
+      "mmmeeeoooww": 868,
+      "murrrrr": 869,
+      "myeovrw": 870,
+      "prrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr": 871,
+      "rawr": 872,
+      "~âģłâĻª": 873,
+      "Ġeowm": 874,
+      "Ġâģł~âģłâĻª": 875,
+      "Ġeomwo": 876,
+      "Ġmrprrpr": 877,
+      "Ġmrewowwww": 878,
+      "ĠâģłâĻ¡âģłâĢ¿âģłâĻ¡": 879,
+      "Ġâģł)âģł": 880,
+      "Ġcutie": 881,
+      "Ġbyaaaa": 882,
+      "ĠmÅĪau": 883,
+      "Ġtransmale": 884,
+      "rroopp": 885,
+      "oworor": 886,
+      "mrraaoww": 887,
+      "mrrrrrrrrrrrrrow": 888,
+      "mrreoew": 889,
+      "mrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrp": 890,
+      "meowwwwwwwwwwww": 891,
+      "meowmroemoemree": 892,
+      "mrmewwwww": 893,
+      "mrrpmrrowrrrrmrrpmeow": 894,
+      "nyaamrrowrroopp": 895,
+      "mrrraaaaw": 896,
+      "mrrroeeewewww": 897,
+      "miaaaaaaau": 898,
+      "miaooo": 899,
+      "mrrrpmoewww": 900,
+      "Ġmeowmeowmrrowmrrpp": 901,
+      "nyaaaamewoww": 902,
+      "purrrmwowww": 903,
+      "mrrowreorp": 904,
+      "meoawwwwwwwwwwwwwwwwwwwwwwww": 905,
+      "mrrrrpppp": 906,
+      "awhekjlyagkjhl": 907,
+      "mrroawwmewww": 908,
+      "mrrororoworor": 909,
+      "Ġ(ï½¡ï½¥": 910,
+      "Ġ(âģłâľ¿âģł": 911,
+      "Ġmiauauuuu": 912,
+      "cuddle": 913,
+      "Ġ^âĸ½^": 914,
+      "Ġioauelihekj": 915,
+      "mrrrowweeeorrr": 916,
+      "âĹķâľ¿)": 917,
+      "Stackmeowrror": 918,
+      "gllup": 919,
+      "kittyyyy": 920,
+      "ĠâģłâĻ¡âģłâĢ¿âģłâĻ¡âģł)": 921,
+      "meowmroemoemreeeww": 922,
+      "mrrroeeewewwwewwww": 923,
+      "Ġioauelihekjawhekjlyagkjhl": 924
+    },
+    "merges": [
+      [
+        "r",
+        "r"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "e",
+        "ow"
+      ],
+      [
+        "m",
+        "rr"
+      ],
+      [
+        "w",
+        "w"
+      ],
+      [
+        "m",
+        "eow"
+      ],
+      [
+        "a",
+        "a"
+      ],
+      [
+        "m",
+        "r"
+      ],
+      [
+        "n",
+        "y"
+      ],
+      [
+        "mrr",
+        "p"
+      ],
+      [
+        "ny",
+        "aa"
+      ],
+      [
+        "rr",
+        "rr"
+      ],
+      [
+        "mrr",
+        "r"
+      ],
+      [
+        "mrr",
+        "ow"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "mr",
+        "ow"
+      ],
+      [
+        "mi",
+        "a"
+      ],
+      [
+        "Ġ",
+        ":"
+      ],
+      [
+        "ww",
+        "w"
+      ],
+      [
+        "mrrr",
+        "p"
+      ],
+      [
+        "p",
+        "u"
+      ],
+      [
+        "M",
+        "eow"
+      ],
+      [
+        "ww",
+        "ww"
+      ],
+      [
+        "meow",
+        "w"
+      ],
+      [
+        "rr",
+        "r"
+      ],
+      [
+        "e",
+        "w"
+      ],
+      [
+        "Ġ",
+        "meow"
+      ],
+      [
+        "!",
+        "!"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "nyaa",
+        "a"
+      ],
+      [
+        "meow",
+        "ww"
+      ],
+      [
+        "M",
+        "rr"
+      ],
+      [
+        "ow",
+        "w"
+      ],
+      [
+        "mrr",
+        "a"
+      ],
+      [
+        "nyaa",
+        "aa"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "pu",
+        "rrrr"
+      ],
+      [
+        "mr",
+        "a"
+      ],
+      [
+        "ny",
+        "a"
+      ],
+      [
+        "ow",
+        "ww"
+      ],
+      [
+        "pu",
+        "rrr"
+      ],
+      [
+        "meow",
+        "meow"
+      ],
+      [
+        "me",
+        "wo"
+      ],
+      [
+        "mo",
+        "ew"
+      ],
+      [
+        "mrrr",
+        "ow"
+      ],
+      [
+        "Mrr",
+        "oww"
+      ],
+      [
+        "mrr",
+        "rr"
+      ],
+      [
+        "rrrr",
+        "rrrr"
+      ],
+      [
+        "e",
+        "ww"
+      ],
+      [
+        "mrrow",
+        "w"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "mrrp",
+        "p"
+      ],
+      [
+        "wwww",
+        "wwww"
+      ],
+      [
+        "aa",
+        "aa"
+      ],
+      [
+        "mia",
+        "w"
+      ],
+      [
+        "â",
+        "ģ"
+      ],
+      [
+        "eow",
+        "w"
+      ],
+      [
+        "âģ",
+        "ł"
+      ],
+      [
+        "Ġ",
+        "moew"
+      ],
+      [
+        "mia",
+        "ow"
+      ],
+      [
+        "mrrrp",
+        "p"
+      ],
+      [
+        "mrrow",
+        "r"
+      ],
+      [
+        "me",
+        "o"
+      ],
+      [
+        "mr",
+        "eow"
+      ],
+      [
+        "mrow",
+        "r"
+      ],
+      [
+        "!!",
+        "!"
+      ],
+      [
+        "p",
+        "rrrr"
+      ],
+      [
+        "meow",
+        "www"
+      ],
+      [
+        "mrrow",
+        "ww"
+      ],
+      [
+        "me",
+        "w"
+      ],
+      [
+        "mrow",
+        "w"
+      ],
+      [
+        "mia",
+        "u"
+      ],
+      [
+        "mrrrr",
+        "p"
+      ],
+      [
+        "M",
+        "rrr"
+      ],
+      [
+        "e",
+        "e"
+      ],
+      [
+        "me",
+        "eow"
+      ],
+      [
+        "pu",
+        "rr"
+      ],
+      [
+        "em",
+        "wo"
+      ],
+      [
+        "N",
+        "y"
+      ],
+      [
+        "e",
+        "o"
+      ],
+      [
+        "Ġ",
+        "mrrp"
+      ],
+      [
+        "mia",
+        "ww"
+      ],
+      [
+        "M",
+        "r"
+      ],
+      [
+        "a",
+        "w"
+      ],
+      [
+        "Ġ",
+        ">"
+      ],
+      [
+        "mrr",
+        "o"
+      ],
+      [
+        "mia",
+        "www"
+      ],
+      [
+        "Mrr",
+        "p"
+      ],
+      [
+        "Mrrr",
+        "p"
+      ],
+      [
+        "/",
+        "/"
+      ],
+      [
+        "m",
+        "ow"
+      ],
+      [
+        "mr",
+        "o"
+      ],
+      [
+        "me",
+        "ww"
+      ],
+      [
+        "Meow",
+        "ww"
+      ],
+      [
+        "p",
+        "p"
+      ],
+      [
+        "mrr",
+        "ew"
+      ],
+      [
+        "mr",
+        "p"
+      ],
+      [
+        "mra",
+        "w"
+      ],
+      [
+        "Mr",
+        "ow"
+      ],
+      [
+        "a",
+        "ow"
+      ],
+      [
+        "Ġ",
+        "w"
+      ],
+      [
+        "Ġ",
+        "mrrrp"
+      ],
+      [
+        "Ġ",
+        "emwo"
+      ],
+      [
+        "mrr",
+        "eoww"
+      ],
+      [
+        "mr",
+        "e"
+      ],
+      [
+        "mrow",
+        "ww"
+      ],
+      [
+        "mia",
+        "owww"
+      ],
+      [
+        "mrra",
+        "ow"
+      ],
+      [
+        "a",
+        "u"
+      ],
+      [
+        "mrrp",
+        "meow"
+      ],
+      [
+        "Mrr",
+        "ow"
+      ],
+      [
+        "mrra",
+        "www"
+      ],
+      [
+        "nyaaaa",
+        "a"
+      ],
+      [
+        "mra",
+        "www"
+      ],
+      [
+        "mrrrow",
+        "r"
+      ],
+      [
+        "rrrrrrrr",
+        "rrrrrrrr"
+      ],
+      [
+        "wwwwwwww",
+        "wwwwwwww"
+      ],
+      [
+        "âģł",
+        "â"
+      ],
+      [
+        "Ny",
+        "a"
+      ],
+      [
+        "a",
+        "ww"
+      ],
+      [
+        "p",
+        "rr"
+      ],
+      [
+        "u",
+        "u"
+      ],
+      [
+        "u",
+        "w"
+      ],
+      [
+        "¼",
+        "Ñ"
+      ],
+      [
+        "Ð",
+        "¼Ñ"
+      ],
+      [
+        "Ñ",
+        "ĥ"
+      ],
+      [
+        "Ġ",
+        "nyaaa"
+      ],
+      [
+        "Ġ",
+        "mewo"
+      ],
+      [
+        "eow",
+        "ww"
+      ],
+      [
+        "mrr",
+        "eww"
+      ],
+      [
+        "mr",
+        "ew"
+      ],
+      [
+        "rrrr",
+        "r"
+      ],
+      [
+        "me",
+        "www"
+      ],
+      [
+        "mia",
+        "wwww"
+      ],
+      [
+        "Meow",
+        "w"
+      ],
+      [
+        "mrra",
+        "w"
+      ],
+      [
+        "mrra",
+        "oww"
+      ],
+      [
+        "purrrr",
+        "r"
+      ],
+      [
+        "Ð¼Ñ",
+        "ı"
+      ],
+      [
+        ".",
+        "."
+      ],
+      [
+        "a",
+        "www"
+      ],
+      [
+        "e",
+        "www"
+      ],
+      [
+        "m",
+        "wo"
+      ],
+      [
+        "o",
+        "o"
+      ],
+      [
+        "p",
+        "rrr"
+      ],
+      [
+        "Ġ",
+        "("
+      ],
+      [
+        "Ġ",
+        "e"
+      ],
+      [
+        "Ġ",
+        "mrrow"
+      ],
+      [
+        "Ġ",
+        "mrow"
+      ],
+      [
+        "Ġ",
+        "nya"
+      ],
+      [
+        "Ļ",
+        "¡"
+      ],
+      [
+        "mr",
+        "aa"
+      ],
+      [
+        "me",
+        "ee"
+      ],
+      [
+        "mrow",
+        "rr"
+      ],
+      [
+        "mrow",
+        "rrrr"
+      ],
+      [
+        "Meow",
+        "www"
+      ],
+      [
+        "mrra",
+        "ww"
+      ],
+      [
+        "mrra",
+        "owww"
+      ],
+      [
+        "mrrrr",
+        "ow"
+      ],
+      [
+        "aaaa",
+        "a"
+      ],
+      [
+        "mreow",
+        "ww"
+      ],
+      [
+        "mew",
+        "ow"
+      ],
+      [
+        "3",
+        "3"
+      ],
+      [
+        "i",
+        "w"
+      ],
+      [
+        "m",
+        "w"
+      ],
+      [
+        "m",
+        "aow"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "r",
+        "w"
+      ],
+      [
+        "Ï",
+        "ī"
+      ],
+      [
+        "ï",
+        "½"
+      ],
+      [
+        "Ġ",
+        "me"
+      ],
+      [
+        "Ġ",
+        "mwo"
+      ],
+      [
+        "mrr",
+        "rrrr"
+      ],
+      [
+        "mrrr",
+        "ew"
+      ],
+      [
+        "me",
+        "ew"
+      ],
+      [
+        "me",
+        "eoww"
+      ],
+      [
+        "mrow",
+        "rrr"
+      ],
+      [
+        "mrra",
+        "wwww"
+      ],
+      [
+        "mo",
+        "e"
+      ],
+      [
+        "purrrr",
+        "rr"
+      ],
+      [
+        "mra",
+        "uw"
+      ],
+      [
+        "meowmeow",
+        "meow"
+      ],
+      [
+        "mrrpp",
+        "p"
+      ],
+      [
+        "//",
+        "//"
+      ],
+      [
+        "âģłâ",
+        "Ļ¡"
+      ],
+      [
+        "a",
+        "i"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "e",
+        "eow"
+      ],
+      [
+        "k",
+        "j"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "p",
+        "rrrrrrrr"
+      ],
+      [
+        "p",
+        "at"
+      ],
+      [
+        "r",
+        "eow"
+      ],
+      [
+        "w",
+        "a"
+      ],
+      [
+        "y",
+        "y"
+      ],
+      [
+        "Ð",
+        "²"
+      ],
+      [
+        "Ġ",
+        "o"
+      ],
+      [
+        "Ġ",
+        "ow"
+      ],
+      [
+        "Ġ",
+        "Meow"
+      ],
+      [
+        "Ġ",
+        "nyaaaa"
+      ],
+      [
+        "Ġ",
+        "purrrr"
+      ],
+      [
+        "Ġ",
+        "miau"
+      ],
+      [
+        "rr",
+        "p"
+      ],
+      [
+        "mrr",
+        "eowww"
+      ],
+      [
+        "mrr",
+        "ewww"
+      ],
+      [
+        "meow",
+        "mrrp"
+      ],
+      [
+        "meow",
+        "meoww"
+      ],
+      [
+        "meow",
+        "meowww"
+      ],
+      [
+        "meow",
+        "wwwwwwwwwwwwwwww"
+      ],
+      [
+        "aa",
+        "a"
+      ],
+      [
+        "mr",
+        "w"
+      ],
+      [
+        "mr",
+        "eww"
+      ],
+      [
+        "mr",
+        "eo"
+      ],
+      [
+        "mrrr",
+        "a"
+      ],
+      [
+        "mrrr",
+        "owww"
+      ],
+      [
+        "mrrr",
+        "aow"
+      ],
+      [
+        "pu",
+        "r"
+      ],
+      [
+        "Mrr",
+        "owww"
+      ],
+      [
+        "nyaaaa",
+        "aaaa"
+      ],
+      [
+        "mra",
+        "wwww"
+      ],
+      [
+        "mra",
+        "owww"
+      ],
+      [
+        "meowmeow",
+        "meowmeow"
+      ],
+      [
+        "âģł",
+        ")"
+      ],
+      [
+        "meo",
+        "e"
+      ],
+      [
+        "mreow",
+        "www"
+      ],
+      [
+        "meeow",
+        "ww"
+      ],
+      [
+        "mro",
+        "ew"
+      ],
+      [
+        "Mrow",
+        "rr"
+      ],
+      [
+        "Mrow",
+        "rrr"
+      ],
+      [
+        "mre",
+        "wwww"
+      ],
+      [
+        "mrraow",
+        "www"
+      ],
+      [
+        "Ñĥ",
+        "Ñĥ"
+      ],
+      [
+        "Ð¼Ñı",
+        "Ð²"
+      ],
+      [
+        "mrrrrrr",
+        "p"
+      ],
+      [
+        "*",
+        "*"
+      ],
+      [
+        "-",
+        "#"
+      ],
+      [
+        "A",
+        "ww"
+      ],
+      [
+        "M",
+        "e"
+      ],
+      [
+        "M",
+        "rrrr"
+      ],
+      [
+        "M",
+        "eo"
+      ],
+      [
+        "a",
+        "ny"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "e",
+        "eww"
+      ],
+      [
+        "e",
+        "eoww"
+      ],
+      [
+        "e",
+        "kj"
+      ],
+      [
+        "h",
+        "ai"
+      ],
+      [
+        "h",
+        "ekj"
+      ],
+      [
+        "m",
+        "j"
+      ],
+      [
+        "m",
+        "meoww"
+      ],
+      [
+        "m",
+        "aw"
+      ],
+      [
+        "r",
+        "p"
+      ],
+      [
+        "t",
+        "i"
+      ],
+      [
+        "â",
+        "Ĺ"
+      ],
+      [
+        "ã",
+        "Ĩ"
+      ],
+      [
+        "Ġ",
+        "^"
+      ],
+      [
+        "Ġ",
+        "i"
+      ],
+      [
+        "Ġ",
+        "nyaa"
+      ],
+      [
+        "Ġ",
+        "ew"
+      ],
+      [
+        "Ġ",
+        "wo"
+      ],
+      [
+        "Ġ",
+        "purrr"
+      ],
+      [
+        "Ġ",
+        "em"
+      ],
+      [
+        "Ġ",
+        "meo"
+      ],
+      [
+        "Ġ",
+        "purr"
+      ],
+      [
+        "Ġ",
+        "mow"
+      ],
+      [
+        "ľ",
+        "¿"
+      ],
+      [
+        "rr",
+        "ow"
+      ],
+      [
+        "mrr",
+        "eow"
+      ],
+      [
+        "mrr",
+        "rrr"
+      ],
+      [
+        "meow",
+        "mrrow"
+      ],
+      [
+        "meow",
+        "wwww"
+      ],
+      [
+        "aa",
+        "au"
+      ],
+      [
+        "mr",
+        "eoww"
+      ],
+      [
+        "mrrp",
+        "meoww"
+      ],
+      [
+        "mrrp",
+        "meww"
+      ],
+      [
+        "mrrr",
+        "oww"
+      ],
+      [
+        "mrrow",
+        "www"
+      ],
+      [
+        "mia",
+        "oww"
+      ],
+      [
+        "Meow",
+        "meow"
+      ],
+      [
+        "Ġmeow",
+        "m"
+      ],
+      [
+        "!!",
+        "!!"
+      ],
+      [
+        "meowww",
+        "www"
+      ],
+      [
+        "mo",
+        "em"
+      ],
+      [
+        "nya",
+        "w"
+      ],
+      [
+        "mewo",
+        "emwo"
+      ],
+      [
+        "mrrrow",
+        "rrrr"
+      ],
+      [
+        "mrrrow",
+        "rrr"
+      ],
+      [
+        "Ġmoew",
+        "m"
+      ],
+      [
+        "mrrrpp",
+        "p"
+      ],
+      [
+        "prrrr",
+        "r"
+      ],
+      [
+        "prrrr",
+        "rr"
+      ],
+      [
+        "Ny",
+        "aaaa"
+      ],
+      [
+        "Ny",
+        "aaaaa"
+      ],
+      [
+        "mrro",
+        "ew"
+      ],
+      [
+        "mrro",
+        "eww"
+      ],
+      [
+        "mrro",
+        "awww"
+      ],
+      [
+        "mro",
+        "rw"
+      ],
+      [
+        "Ġw",
+        "meo"
+      ],
+      [
+        "rrrrrrrrrrrrrrrr",
+        "rrrrrrrrrrrrrrrr"
+      ],
+      [
+        "rrrrr",
+        "p"
+      ],
+      [
+        "Ð¼Ñı",
+        "ÑĥÑĥ"
+      ],
+      [
+        "..",
+        "."
+      ],
+      [
+        "Ġe",
+        "meow"
+      ],
+      [
+        "ï½",
+        "¡"
+      ],
+      [
+        "ï½",
+        "¥"
+      ],
+      [
+        "meew",
+        "ow"
+      ],
+      [
+        "âģłâĻ¡",
+        "âģł"
+      ],
+      [
+        "pat",
+        "pat"
+      ],
+      [
+        "wa",
+        "y"
+      ],
+      [
+        "Ġo",
+        "emwo"
+      ],
+      [
+        "Ġow",
+        "meo"
+      ],
+      [
+        "any",
+        "way"
+      ],
+      [
+        "hai",
+        "i"
+      ],
+      [
+        "âĹ",
+        "ķ"
+      ],
+      [
+        "ãĨ",
+        "ģ"
+      ],
+      [
+        "Ġew",
+        "mo"
+      ],
+      [
+        "Ġem",
+        "ow"
+      ],
+      [
+        "rrow",
+        "r"
+      ],
+      [
+        "mrorw",
+        "r"
+      ],
+      [
+        ".",
+        ","
+      ],
+      [
+        ".",
+        "^"
+      ],
+      [
+        "/",
+        "<"
+      ],
+      [
+        ":",
+        "("
+      ],
+      [
+        ">",
+        "////"
+      ],
+      [
+        "A",
+        "w"
+      ],
+      [
+        "E",
+        "O"
+      ],
+      [
+        "H",
+        "eww"
+      ],
+      [
+        "H",
+        "ai"
+      ],
+      [
+        "L",
+        "o"
+      ],
+      [
+        "M",
+        "w"
+      ],
+      [
+        "M",
+        "ew"
+      ],
+      [
+        "M",
+        "EO"
+      ],
+      [
+        "N",
+        "e"
+      ],
+      [
+        "P",
+        "u"
+      ],
+      [
+        "P",
+        "rrr"
+      ],
+      [
+        "S",
+        "t"
+      ],
+      [
+        "Y",
+        "e"
+      ],
+      [
+        "\\",
+        "-"
+      ],
+      [
+        "\\",
+        "\\-"
+      ],
+      [
+        "^",
+        ".^"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "a",
+        "h"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "a",
+        "rr"
+      ],
+      [
+        "a",
+        "wwww"
+      ],
+      [
+        "a",
+        "wwwwwwwwwwwwwwww"
+      ],
+      [
+        "a",
+        "le"
+      ],
+      [
+        "b",
+        "w"
+      ],
+      [
+        "b",
+        "y"
+      ],
+      [
+        "b",
+        "le"
+      ],
+      [
+        "b",
+        "as"
+      ],
+      [
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "k"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "e",
+        "wwww"
+      ],
+      [
+        "e",
+        "moe"
+      ],
+      [
+        "g",
+        "l"
+      ],
+      [
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "l"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "i",
+        "aw"
+      ],
+      [
+        "i",
+        "aww"
+      ],
+      [
+        "i",
+        "hekj"
+      ],
+      [
+        "j",
+        "h"
+      ],
+      [
+        "k",
+        "meow"
+      ],
+      [
+        "k",
+        "it"
+      ],
+      [
+        "l",
+        "u"
+      ],
+      [
+        "l",
+        "w"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "m",
+        "m"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "m",
+        "y"
+      ],
+      [
+        "m",
+        "Å"
+      ],
+      [
+        "m",
+        "mrrp"
+      ],
+      [
+        "m",
+        "mew"
+      ],
+      [
+        "m",
+        "meeow"
+      ],
+      [
+        "m",
+        "mrreoww"
+      ],
+      [
+        "m",
+        "ale"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "n",
+        "eww"
+      ],
+      [
+        "n",
+        "iaw"
+      ],
+      [
+        "o",
+        "e"
+      ],
+      [
+        "o",
+        "oww"
+      ],
+      [
+        "o",
+        "ee"
+      ],
+      [
+        "o",
+        "aw"
+      ],
+      [
+        "o",
+        "au"
+      ],
+      [
+        "o",
+        "rrowr"
+      ],
+      [
+        "o",
+        "awwww"
+      ],
+      [
+        "o",
+        "ne"
+      ],
+      [
+        "p",
+        "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+      ],
+      [
+        "r",
+        "ow"
+      ],
+      [
+        "r",
+        "meowww"
+      ],
+      [
+        "r",
+        "aw"
+      ],
+      [
+        "r",
+        "pp"
+      ],
+      [
+        "r",
+        "eowww"
+      ],
+      [
+        "r",
+        "or"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "r",
+        "orrowr"
+      ],
+      [
+        "s",
+        "male"
+      ],
+      [
+        "t",
+        "yy"
+      ],
+      [
+        "t",
+        "ran"
+      ],
+      [
+        "u",
+        "h"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "u",
+        "ww"
+      ],
+      [
+        "v",
+        "w"
+      ],
+      [
+        "v",
+        "rw"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "v",
+        "il"
+      ],
+      [
+        "z",
+        "one"
+      ],
+      [
+        "~",
+        "~"
+      ],
+      [
+        "~",
+        "âģłâ"
+      ],
+      [
+        "¤",
+        "www"
+      ],
+      [
+        "º",
+        "ħ"
+      ],
+      [
+        "½",
+        "^"
+      ],
+      [
+        "¾",
+        "ī"
+      ],
+      [
+        "¿",
+        "âģłâĻ¡"
+      ],
+      [
+        "Ã",
+        "¼"
+      ],
+      [
+        "Ã",
+        "¤www"
+      ],
+      [
+        "á",
+        "ºħ"
+      ],
+      [
+        "â",
+        "ĸ"
+      ],
+      [
+        "â",
+        "Ļ¡"
+      ],
+      [
+        "â",
+        "ľ¿"
+      ],
+      [
+        "ï",
+        "¾ī"
+      ],
+      [
+        "Ġ",
+        "3"
+      ],
+      [
+        "Ġ",
+        "Ċ"
+      ],
+      [
+        "Ġ",
+        "eow"
+      ],
+      [
+        "Ġ",
+        "meoww"
+      ],
+      [
+        "Ġ",
+        "mrrrow"
+      ],
+      [
+        "Ġ",
+        "mrrpp"
+      ],
+      [
+        "Ġ",
+        "âģł"
+      ],
+      [
+        "Ġ",
+        "mrrowr"
+      ],
+      [
+        "Ġ",
+        "mreow"
+      ],
+      [
+        "Ġ",
+        "eo"
+      ],
+      [
+        "Ġ",
+        "mrp"
+      ],
+      [
+        "Ġ",
+        "mrowww"
+      ],
+      [
+        "Ġ",
+        "mrraow"
+      ],
+      [
+        "Ġ",
+        "Nya"
+      ],
+      [
+        "Ġ",
+        "mrew"
+      ],
+      [
+        "Ġ",
+        "purrrrr"
+      ],
+      [
+        "Ġ",
+        "mrrrew"
+      ],
+      [
+        "Ġ",
+        "mrrppp"
+      ],
+      [
+        "Ġ",
+        "âģłâĻ¡"
+      ],
+      [
+        "Ġ",
+        "mrrrowww"
+      ],
+      [
+        "Ġ",
+        "âģł)"
+      ],
+      [
+        "Ġ",
+        "mreowwww"
+      ],
+      [
+        "Ġ",
+        "cu"
+      ],
+      [
+        "Ġ",
+        "mrorwr"
+      ],
+      [
+        "Ġ",
+        "\\\\-"
+      ],
+      [
+        "Ġ",
+        "by"
+      ],
+      [
+        "Ġ",
+        "mÅ"
+      ],
+      [
+        "Ġ",
+        "tran"
+      ],
+      [
+        "Ġ",
+        "uh"
+      ],
+      [
+        "Ģ",
+        "¿âģłâĻ¡"
+      ],
+      [
+        "Ī",
+        "au"
+      ],
+      [
+        "Ļ",
+        "ª"
+      ],
+      [
+        "rr",
+        "eww"
+      ],
+      [
+        "rr",
+        "aww"
+      ],
+      [
+        "rr",
+        "oo"
+      ],
+      [
+        "rr",
+        "or"
+      ],
+      [
+        "ow",
+        "ow"
+      ],
+      [
+        "ow",
+        "www"
+      ],
+      [
+        "ow",
+        "wwww"
+      ],
+      [
+        "ow",
+        "or"
+      ],
+      [
+        "eow",
+        "rr"
+      ],
+      [
+        "eow",
+        "wwww"
+      ],
+      [
+        "mrr",
+        "w"
+      ],
+      [
+        "mrr",
+        "aa"
+      ],
+      [
+        "mrr",
+        "wo"
+      ],
+      [
+        "mrr",
+        "rrrrrrrr"
+      ],
+      [
+        "mrr",
+        "eo"
+      ],
+      [
+        "mrr",
+        "eeww"
+      ],
+      [
+        "mrr",
+        "eeoww"
+      ],
+      [
+        "mrr",
+        "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+      ],
+      [
+        "mrr",
+        "rrrrrp"
+      ],
+      [
+        "ww",
+        "e"
+      ],
+      [
+        "meow",
+        "mewo"
+      ],
+      [
+        "meow",
+        "mrroww"
+      ],
+      [
+        "meow",
+        "wwwwwwww"
+      ],
+      [
+        "meow",
+        "prrrr"
+      ],
+      [
+        "meow",
+        "mrrowww"
+      ],
+      [
+        "meow",
+        "mrrrrp"
+      ],
+      [
+        "meow",
+        "mro"
+      ],
+      [
+        "meow",
+        "vil"
+      ],
+      [
+        "meow",
+        "zone"
+      ],
+      [
+        "mr",
+        "ee"
+      ],
+      [
+        "mr",
+        "meww"
+      ],
+      [
+        "mr",
+        "iw"
+      ],
+      [
+        "mrrp",
+        "ow"
+      ],
+      [
+        "mrrp",
+        "nyaa"
+      ],
+      [
+        "mrrp",
+        "mrrow"
+      ],
+      [
+        "mrrp",
+        "nyaaa"
+      ],
+      [
+        "mrrp",
+        "meowww"
+      ],
+      [
+        "mrrp",
+        "meowwww"
+      ],
+      [
+        "nyaa",
+        "mrrow"
+      ],
+      [
+        "nyaa",
+        "oo"
+      ],
+      [
+        "rrrr",
+        "mrrpmeow"
+      ],
+      [
+        "mrrr",
+        "eww"
+      ],
+      [
+        "mrrr",
+        "aaaa"
+      ],
+      [
+        "mrrr",
+        "eoww"
+      ],
+      [
+        "mrrr",
+        "eowww"
+      ],
+      [
+        "mrrr",
+        "awww"
+      ],
+      [
+        "mrrr",
+        "eeow"
+      ],
+      [
+        "mrrr",
+        "oee"
+      ],
+      [
+        "mrrr",
+        "eowrr"
+      ],
+      [
+        "mrrow",
+        "rrr"
+      ],
+      [
+        "mrrow",
+        "mreow"
+      ],
+      [
+        "mrrow",
+        "rrrrr"
+      ],
+      [
+        "me",
+        "eww"
+      ],
+      [
+        "me",
+        "aw"
+      ],
+      [
+        "me",
+        "iw"
+      ],
+      [
+        "me",
+        "eeow"
+      ],
+      [
+        "me",
+        "eeoww"
+      ],
+      [
+        "me",
+        "iaww"
+      ],
+      [
+        "me",
+        "row"
+      ],
+      [
+        "mi",
+        "aaaa"
+      ],
+      [
+        "mi",
+        "uu"
+      ],
+      [
+        "mi",
+        "aaau"
+      ],
+      [
+        "mi",
+        "Ã¤www"
+      ],
+      [
+        "mrow",
+        "nyaa"
+      ],
+      [
+        "mrow",
+        "rrrrr"
+      ],
+      [
+        "mrow",
+        "eeww"
+      ],
+      [
+        "mia",
+        "wo"
+      ],
+      [
+        "mia",
+        "oo"
+      ],
+      [
+        "Ġ:",
+        "#"
+      ],
+      [
+        "Ġ:",
+        "("
+      ],
+      [
+        "Ġ:",
+        "<"
+      ],
+      [
+        "mrrrp",
+        "meow"
+      ],
+      [
+        "mrrrp",
+        "meowww"
+      ],
+      [
+        "mrrrp",
+        "mo"
+      ],
+      [
+        "Meow",
+        "s"
+      ],
+      [
+        "Meow",
+        "rr"
+      ],
+      [
+        "Meow",
+        "prrr"
+      ],
+      [
+        "meoww",
+        "mrroww"
+      ],
+      [
+        "meoww",
+        "mrrpmeowwww"
+      ],
+      [
+        "rrr",
+        "ow"
+      ],
+      [
+        "ew",
+        "moew"
+      ],
+      [
+        "ew",
+        "ewww"
+      ],
+      [
+        "ew",
+        "moe"
+      ],
+      [
+        "Ġmeow",
+        "e"
+      ],
+      [
+        "Ġmeow",
+        "o"
+      ],
+      [
+        "Ġmeow",
+        "www"
+      ],
+      [
+        "Ġmeow",
+        "meowmrrow"
+      ],
+      [
+        "!!",
+        "!!!"
+      ],
+      [
+        "nyaaa",
+        "n"
+      ],
+      [
+        "nyaaa",
+        "mrreeoww"
+      ],
+      [
+        "meowww",
+        "mrrp"
+      ],
+      [
+        "Mrr",
+        "eww"
+      ],
+      [
+        "oww",
+        "r"
+      ],
+      [
+        "mrra",
+        "uw"
+      ],
+      [
+        "mrra",
+        "oe"
+      ],
+      [
+        "nyaaaa",
+        "aa"
+      ],
+      [
+        "nyaaaa",
+        "mew"
+      ],
+      [
+        "nyaaaa",
+        "aaaaa"
+      ],
+      [
+        "mo",
+        "emwo"
+      ],
+      [
+        "purrrr",
+        "rrr"
+      ],
+      [
+        "purrrr",
+        "mrroww"
+      ],
+      [
+        "mra",
+        "oww"
+      ],
+      [
+        "mra",
+        "uww"
+      ],
+      [
+        "owww",
+        "rrr"
+      ],
+      [
+        "purrr",
+        "mw"
+      ],
+      [
+        "purrr",
+        "mreoww"
+      ],
+      [
+        "meowmeow",
+        "wwww"
+      ],
+      [
+        "meowmeow",
+        "meowww"
+      ],
+      [
+        "meowmeow",
+        "mrrowww"
+      ],
+      [
+        "meowmeow",
+        "mewoemwo"
+      ],
+      [
+        "mewo",
+        "me"
+      ],
+      [
+        "mrrrow",
+        "rr"
+      ],
+      [
+        "mrrrr",
+        "eowww"
+      ],
+      [
+        "mrrrr",
+        "owwwrrr"
+      ],
+      [
+        "rrrrrrrr",
+        "rrrr"
+      ],
+      [
+        "mrroww",
+        "meowwww"
+      ],
+      [
+        "em",
+        "oww"
+      ],
+      [
+        "mrrpp",
+        "meow"
+      ],
+      [
+        "mrrpp",
+        "pp"
+      ],
+      [
+        "aaaa",
+        "aaaaa"
+      ],
+      [
+        "Ġmoew",
+        "mo"
+      ],
+      [
+        "miaow",
+        "www"
+      ],
+      [
+        "mrrowr",
+        "eo"
+      ],
+      [
+        "meo",
+        "ew"
+      ],
+      [
+        "meo",
+        "oww"
+      ],
+      [
+        "meo",
+        "rw"
+      ],
+      [
+        "meo",
+        "awwwwwwwwwwwwwwww"
+      ],
+      [
+        "meo",
+        "rpp"
+      ],
+      [
+        "meo",
+        "owow"
+      ],
+      [
+        "mew",
+        "mo"
+      ],
+      [
+        "mroww",
+        "q"
+      ],
+      [
+        "mroww",
+        "rrr"
+      ],
+      [
+        "miau",
+        "u"
+      ],
+      [
+        "miau",
+        "w"
+      ],
+      [
+        "miau",
+        "uu"
+      ],
+      [
+        "mrrrrp",
+        "pp"
+      ],
+      [
+        "mrrrrp",
+        "rp"
+      ],
+      [
+        "Mrrr",
+        "aow"
+      ],
+      [
+        "ee",
+        "eo"
+      ],
+      [
+        "ee",
+        "eowwwww"
+      ],
+      [
+        "purr",
+        "nyaaamrreeoww"
+      ],
+      [
+        "Ny",
+        "aaa"
+      ],
+      [
+        "eo",
+        "e"
+      ],
+      [
+        "eo",
+        "owww"
+      ],
+      [
+        "eo",
+        "vrw"
+      ],
+      [
+        "Ġmrrp",
+        "nyaa"
+      ],
+      [
+        "Ġmrrp",
+        "rmeowww"
+      ],
+      [
+        "miaww",
+        "www"
+      ],
+      [
+        "miaww",
+        "uu"
+      ],
+      [
+        "Mr",
+        "owww"
+      ],
+      [
+        "Mr",
+        "oaw"
+      ],
+      [
+        "aw",
+        "a"
+      ],
+      [
+        "aw",
+        "hekj"
+      ],
+      [
+        "mrro",
+        "o"
+      ],
+      [
+        "mrro",
+        "ow"
+      ],
+      [
+        "mrro",
+        "aww"
+      ],
+      [
+        "mrro",
+        "rrowr"
+      ],
+      [
+        "mrro",
+        "ror"
+      ],
+      [
+        "Mrrrp",
+        "r"
+      ],
+      [
+        "//",
+        "/<"
+      ],
+      [
+        "mro",
+        "awww"
+      ],
+      [
+        "mro",
+        "oawwww"
+      ],
+      [
+        "mro",
+        "rorrowr"
+      ],
+      [
+        "Meowww",
+        "www"
+      ],
+      [
+        "pp",
+        "pp"
+      ],
+      [
+        "mrrew",
+        "oww"
+      ],
+      [
+        "mraw",
+        "rrr"
+      ],
+      [
+        "Mrow",
+        "r"
+      ],
+      [
+        "Mrow",
+        "rrrrr"
+      ],
+      [
+        "Ġw",
+        "m"
+      ],
+      [
+        "Ġw",
+        "moe"
+      ],
+      [
+        "Ġw",
+        "meoe"
+      ],
+      [
+        "Ġw",
+        "moem"
+      ],
+      [
+        "Ġw",
+        "moemwo"
+      ],
+      [
+        "Ġmrrrp",
+        "meww"
+      ],
+      [
+        "Ġmrrrp",
+        "wwe"
+      ],
+      [
+        "mrreoww",
+        "mrrp"
+      ],
+      [
+        "mre",
+        "eow"
+      ],
+      [
+        "mre",
+        "www"
+      ],
+      [
+        "mre",
+        "ew"
+      ],
+      [
+        "mre",
+        "pp"
+      ],
+      [
+        "mre",
+        "vw"
+      ],
+      [
+        "miaowww",
+        "mrrpmeww"
+      ],
+      [
+        "au",
+        "w"
+      ],
+      [
+        "au",
+        "uu"
+      ],
+      [
+        "mrrawww",
+        "mewow"
+      ],
+      [
+        "mrawww",
+        "mewow"
+      ],
+      [
+        "wwwwwwwwwwwwwwww",
+        "www"
+      ],
+      [
+        "âģłâ",
+        "ľ¿"
+      ],
+      [
+        "âģłâ",
+        "Ģ¿âģłâĻ¡"
+      ],
+      [
+        "prr",
+        "nyaa"
+      ],
+      [
+        "uw",
+        "u"
+      ],
+      [
+        "Ġnyaaa",
+        "meww"
+      ],
+      [
+        "Ġnyaaa",
+        "mrroeww"
+      ],
+      [
+        "Ġmewo",
+        "e"
+      ],
+      [
+        "mrreww",
+        "a"
+      ],
+      [
+        "mrew",
+        "oww"
+      ],
+      [
+        "mrew",
+        "owww"
+      ],
+      [
+        "Meoww",
+        "meowww"
+      ],
+      [
+        "Ð¼Ñı",
+        "Ñĥ"
+      ],
+      [
+        "awww",
+        "mrrpp"
+      ],
+      [
+        "oo",
+        "oww"
+      ],
+      [
+        "prrr",
+        "meow"
+      ],
+      [
+        "Ġ(",
+        "âģł"
+      ],
+      [
+        "Ġ(",
+        "ï½¡"
+      ],
+      [
+        "Ġ(",
+        "âģłâĻ¡âģł"
+      ],
+      [
+        "Ġ(",
+        "âĹķ"
+      ],
+      [
+        "Ġ(",
+        "âģłâľ¿"
+      ],
+      [
+        "Ġe",
+        "moew"
+      ],
+      [
+        "Ġe",
+        "moe"
+      ],
+      [
+        "Ġe",
+        "meoe"
+      ],
+      [
+        "Ġmrow",
+        "rrr"
+      ],
+      [
+        "mraa",
+        "aw"
+      ],
+      [
+        "meee",
+        "eoww"
+      ],
+      [
+        "meee",
+        "eeow"
+      ],
+      [
+        "meee",
+        "eeeowwwww"
+      ],
+      [
+        "meee",
+        "eoowww"
+      ],
+      [
+        "meee",
+        "oooww"
+      ],
+      [
+        "mrowrrrr",
+        "eoe"
+      ],
+      [
+        "mrrrrow",
+        "rr"
+      ],
+      [
+        "mrrrrow",
+        "rrrr"
+      ],
+      [
+        "mreowww",
+        "mrrpnyaaa"
+      ],
+      [
+        "mewow",
+        "mrrrpmeow"
+      ],
+      [
+        "33",
+        "3"
+      ],
+      [
+        "iw",
+        "jh"
+      ],
+      [
+        "mw",
+        "eow"
+      ],
+      [
+        "mw",
+        "arr"
+      ],
+      [
+        "Ġme",
+        "iw"
+      ],
+      [
+        "Ġme",
+        "reow"
+      ],
+      [
+        "Ġme",
+        "lw"
+      ],
+      [
+        "Ġme",
+        "auw"
+      ],
+      [
+        "Ġmwo",
+        "meo"
+      ],
+      [
+        "mrrrrrr",
+        "rrp"
+      ],
+      [
+        "mrauw",
+        "a"
+      ],
+      [
+        "meowmeowmeow",
+        "mw"
+      ],
+      [
+        "////",
+        "///<"
+      ],
+      [
+        "kj",
+        "hl"
+      ],
+      [
+        "prrrrrrrr",
+        "rr"
+      ],
+      [
+        "prrrrrrrr",
+        "rrr"
+      ],
+      [
+        "reow",
+        "r"
+      ],
+      [
+        "reow",
+        "rrr"
+      ],
+      [
+        "wa",
+        "owww"
+      ],
+      [
+        "Ġo",
+        "em"
+      ],
+      [
+        "Ġpurrrr",
+        "rrrr"
+      ],
+      [
+        "Ġpurrrr",
+        "mraowww"
+      ],
+      [
+        "Ġmiau",
+        "uu"
+      ],
+      [
+        "Ġmiau",
+        "auuu"
+      ],
+      [
+        "rrp",
+        "r"
+      ],
+      [
+        "meowwwwwwwwwwwwwwwww",
+        "wwww"
+      ],
+      [
+        "meowwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwww"
+      ],
+      [
+        "mrw",
+        "aaa"
+      ],
+      [
+        "mreo",
+        "eww"
+      ],
+      [
+        "mreo",
+        "awwwmrrpp"
+      ],
+      [
+        "mrrra",
+        "p"
+      ],
+      [
+        "mrrra",
+        "r"
+      ],
+      [
+        "mrrra",
+        "wwww"
+      ],
+      [
+        "mrrraow",
+        "www"
+      ],
+      [
+        "pur",
+        "ur"
+      ],
+      [
+        "nyaaaaaaaa",
+        "aa"
+      ],
+      [
+        "nyaaaaaaaa",
+        "aaaaa"
+      ],
+      [
+        "nyaaaaaaaa",
+        "aaaaaaaaa"
+      ],
+      [
+        "mrawwww",
+        "aw"
+      ],
+      [
+        "meowmeowmeowmeow",
+        "meowmeow"
+      ],
+      [
+        "mroew",
+        "rr"
+      ],
+      [
+        "Me",
+        "rrp"
+      ],
+      [
+        "Mrrrr",
+        "p"
+      ],
+      [
+        "Mrrrr",
+        "pppp"
+      ],
+      [
+        "Meo",
+        "ooww"
+      ],
+      [
+        "Meo",
+        "owwwww"
+      ],
+      [
+        "cu",
+        "dd"
+      ],
+      [
+        "mj",
+        "aw"
+      ],
+      [
+        "mj",
+        "au"
+      ],
+      [
+        "maw",
+        "r"
+      ],
+      [
+        "ti",
+        "e"
+      ],
+      [
+        "ti",
+        "ny"
+      ],
+      [
+        "Ġ^",
+        "âĸ"
+      ],
+      [
+        "Ġi",
+        "dk"
+      ],
+      [
+        "Ġi",
+        "oau"
+      ],
+      [
+        "Ġwo",
+        "em"
+      ],
+      [
+        "Ġpurrr",
+        "mrrppp"
+      ],
+      [
+        "Ġmow",
+        "moem"
+      ],
+      [
+        "mrrrrr",
+        "p"
+      ],
+      [
+        "mrrrrr",
+        "oww"
+      ],
+      [
+        "mrrroww",
+        "eeeo"
+      ],
+      [
+        "!!!!",
+        "!!"
+      ],
+      [
+        "mewoemwo",
+        "meowmewo"
+      ],
+      [
+        "mrrrowrrrr",
+        "rr"
+      ],
+      [
+        "Ð¼ÑıÑĥÑĥ",
+        "Ñĥ"
+      ],
+      [
+        "ï½¡",
+        ")"
+      ],
+      [
+        "ï½¥",
+        "ï½¡)"
+      ],
+      [
+        "patpat",
+        "pat"
+      ],
+      [
+        "Ġowmeo",
+        "iwjh"
+      ],
+      [
+        "anyway",
+        "s"
+      ],
+      [
+        "haii",
+        "i"
+      ],
+      [
+        "âĹķ",
+        "âľ¿"
+      ],
+      [
+        "Ġemow",
+        "e"
+      ],
+      [
+        ">////",
+        "///////<"
+      ],
+      [
+        "Aw",
+        "awa"
+      ],
+      [
+        "Heww",
+        "o"
+      ],
+      [
+        "Hai",
+        "haiii"
+      ],
+      [
+        "Lo",
+        "l"
+      ],
+      [
+        "Mw",
+        "ow"
+      ],
+      [
+        "Mew",
+        "o"
+      ],
+      [
+        "MEO",
+        "W"
+      ],
+      [
+        "Ne",
+        "ver"
+      ],
+      [
+        "Pu",
+        "rrrr"
+      ],
+      [
+        "St",
+        "ac"
+      ],
+      [
+        "Ye",
+        "p"
+      ],
+      [
+        "ag",
+        "kjhl"
+      ],
+      [
+        "bw",
+        "aaa"
+      ],
+      [
+        "ble",
+        "p"
+      ],
+      [
+        "bas",
+        "ed"
+      ],
+      [
+        "el",
+        "ihekj"
+      ],
+      [
+        "emoe",
+        "mree"
+      ],
+      [
+        "gl",
+        "lu"
+      ],
+      [
+        "kmeow",
+        "rror"
+      ],
+      [
+        "kit",
+        "tyy"
+      ],
+      [
+        "ly",
+        "agkjhl"
+      ],
+      [
+        "mm",
+        "meeeoooww"
+      ],
+      [
+        "mu",
+        "rrrrr"
+      ],
+      [
+        "my",
+        "eovrw"
+      ],
+      [
+        "prrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+        "rrrrrrrrrrrr"
+      ],
+      [
+        "raw",
+        "r"
+      ],
+      [
+        "~âģłâ",
+        "Ļª"
+      ],
+      [
+        "Ġeow",
+        "m"
+      ],
+      [
+        "Ġâģł",
+        "~âģłâĻª"
+      ],
+      [
+        "Ġeo",
+        "mwo"
+      ],
+      [
+        "Ġmrp",
+        "rrpr"
+      ],
+      [
+        "Ġmrew",
+        "owwww"
+      ],
+      [
+        "ĠâģłâĻ¡",
+        "âģłâĢ¿âģłâĻ¡"
+      ],
+      [
+        "Ġâģł)",
+        "âģł"
+      ],
+      [
+        "Ġcu",
+        "tie"
+      ],
+      [
+        "Ġby",
+        "aaaa"
+      ],
+      [
+        "ĠmÅ",
+        "Īau"
+      ],
+      [
+        "Ġtran",
+        "smale"
+      ],
+      [
+        "rroo",
+        "pp"
+      ],
+      [
+        "owor",
+        "or"
+      ],
+      [
+        "mrraa",
+        "oww"
+      ],
+      [
+        "mrrrrrrrrrr",
+        "rrrow"
+      ],
+      [
+        "mrreo",
+        "ew"
+      ],
+      [
+        "mrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+        "rrrrrp"
+      ],
+      [
+        "meowwwwwwwww",
+        "www"
+      ],
+      [
+        "meowmro",
+        "emoemree"
+      ],
+      [
+        "mrmeww",
+        "www"
+      ],
+      [
+        "mrrpmrrow",
+        "rrrrmrrpmeow"
+      ],
+      [
+        "nyaamrrow",
+        "rroopp"
+      ],
+      [
+        "mrrraaaa",
+        "w"
+      ],
+      [
+        "mrrroee",
+        "ewewww"
+      ],
+      [
+        "miaaaa",
+        "aaau"
+      ],
+      [
+        "miaoo",
+        "o"
+      ],
+      [
+        "mrrrpmo",
+        "ewww"
+      ],
+      [
+        "Ġmeowmeowmrrow",
+        "mrrpp"
+      ],
+      [
+        "nyaaaamew",
+        "oww"
+      ],
+      [
+        "purrrmw",
+        "owww"
+      ],
+      [
+        "mrrowreo",
+        "rp"
+      ],
+      [
+        "meoawwwwwwwwwwwwwwww",
+        "wwwwwwww"
+      ],
+      [
+        "mrrrrppp",
+        "p"
+      ],
+      [
+        "awhekj",
+        "lyagkjhl"
+      ],
+      [
+        "mrroaww",
+        "mewww"
+      ],
+      [
+        "mrroror",
+        "oworor"
+      ],
+      [
+        "Ġ(ï½¡",
+        "ï½¥"
+      ],
+      [
+        "Ġ(âģłâľ¿",
+        "âģł"
+      ],
+      [
+        "Ġmiauauuu",
+        "u"
+      ],
+      [
+        "cudd",
+        "le"
+      ],
+      [
+        "Ġ^âĸ",
+        "½^"
+      ],
+      [
+        "Ġioau",
+        "elihekj"
+      ],
+      [
+        "mrrrowweeeo",
+        "rrr"
+      ],
+      [
+        "âĹķâľ¿",
+        ")"
+      ],
+      [
+        "Stac",
+        "kmeowrror"
+      ],
+      [
+        "gllu",
+        "p"
+      ],
+      [
+        "kittyy",
+        "yy"
+      ],
+      [
+        "ĠâģłâĻ¡âģłâĢ¿âģłâĻ¡",
+        "âģł)"
+      ],
+      [
+        "meowmroemoemree",
+        "eww"
+      ],
+      [
+        "mrrroeeewewww",
+        "ewwww"
+      ],
+      [
+        "Ġioauelihekj",
+        "awhekjlyagkjhl"
+      ]
+    ]
+  }
+}
